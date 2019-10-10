@@ -1,6 +1,5 @@
 package br.newtonpaiva.centralleitos.models;
 
-import java.io.Serializable;
 import java.util.Calendar;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -12,9 +11,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 @Entity
-public class Ocupacao implements Serializable {
-
-    private static final long serialVersionUID = 1L;
+public class Ocupacao {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -1,6 +1,5 @@
 package br.newtonpaiva.centralleitos.models;
 
-import java.io.Serializable;
 import java.util.Set;
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
@@ -10,9 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
 @Entity
-public class Leito implements Serializable {
-
-    private static final long serialVersionUID = 1L;
+public class Leito {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -5,6 +5,7 @@
     <class>br.newtonpaiva.centralleitos.models.Leito</class>
     <class>br.newtonpaiva.centralleitos.models.Ocupacao</class>
     <class>br.newtonpaiva.centralleitos.models.Usuario</class>
+    <class>br.newtonpaiva.centralleitos.models.Paciente</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/central-leitos-db?zeroDateTimeBehavior=convertToNull"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
